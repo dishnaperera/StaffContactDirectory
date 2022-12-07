@@ -19,12 +19,7 @@ namespace ROI
 {
     public partial class MainPage : ContentPage
     {
-        public MainPage()
-        {
-            InitializeComponent();
-            //Calling of function Loaddata on application load to initialize the record which are saved to csv file.
-            loaddata();
-        }
+        
         private void loaddata()
         {
             //Path of the csv file named as abc.csv

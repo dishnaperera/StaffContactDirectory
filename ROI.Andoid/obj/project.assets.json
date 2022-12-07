@@ -3520,24 +3520,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\place\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\brand\\.nuget\\packages\\": {},
+    "F:\\Programming Files\\Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\place\\OneDrive\\Documents\\GitHub\\ROI\\ROI.Andoid\\ROI.Andoid.csproj",
+      "projectUniqueName": "F:\\Programming Files\\Programs\\TMP\\ROI_Dishna\\ROI.Andoid\\ROI.Andoid.csproj",
       "projectName": "ROI.Android",
-      "projectPath": "C:\\Users\\place\\OneDrive\\Documents\\GitHub\\ROI\\ROI.Andoid\\ROI.Andoid.csproj",
-      "packagesPath": "C:\\Users\\place\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\place\\OneDrive\\Documents\\GitHub\\ROI\\ROI.Andoid\\obj\\",
+      "projectPath": "F:\\Programming Files\\Programs\\TMP\\ROI_Dishna\\ROI.Andoid\\ROI.Andoid.csproj",
+      "packagesPath": "C:\\Users\\brand\\.nuget\\packages\\",
+      "outputPath": "F:\\Programming Files\\Programs\\TMP\\ROI_Dishna\\ROI.Andoid\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "F:\\Programming Files\\Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\place\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\brand\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3551,8 +3551,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "C:\\Users\\place\\OneDrive\\Documents\\GitHub\\ROI\\ROI\\ROI.csproj": {
-              "projectPath": "C:\\Users\\place\\OneDrive\\Documents\\GitHub\\ROI\\ROI\\ROI.csproj"
+            "F:\\Programming Files\\Programs\\TMP\\ROI_Dishna\\ROI\\ROI.csproj": {
+              "projectPath": "F:\\Programming Files\\Programs\\TMP\\ROI_Dishna\\ROI\\ROI.csproj"
             }
           }
         }

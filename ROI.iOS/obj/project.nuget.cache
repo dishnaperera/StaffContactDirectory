@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "GWKm7guOldrUMn7+Ay7gDeXmJ/rHQfBo2DhIv0wx8XVUXxuvlcZM5NOnKW64rhlW0k2ZpEZr5j7vdwKbUZtb5Q==",
+  "dgSpecHash": "VTKmN4u//b/bdz5zS3tL4nWw1bu4bTZ5+UFmxyuvs2odV8S7eJWFOajcUXeflYBtsXgVQVGqeXvm5y49/vN7hg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\place\\OneDrive\\Documents\\GitHub\\ROI\\ROI.iOS\\ROI.iOS.csproj",
+  "projectFilePath": "F:\\Programming Files\\Programs\\TMP\\ROI_Dishna\\ROI.iOS\\ROI.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\place\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512",
-    "C:\\Users\\place\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",
-    "C:\\Users\\place\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\place\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\place\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+    "C:\\Users\\brand\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512",
+    "C:\\Users\\brand\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",
+    "C:\\Users\\brand\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\brand\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\brand\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],
   "logs": []
 }
