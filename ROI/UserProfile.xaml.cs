@@ -129,7 +129,7 @@ namespace ROI
         private void btnDelete_Clicked(object sender, EventArgs e)
         {
             try
-            {
+            {//deleting the record from the csv file.
                 if (string.IsNullOrEmpty(txtContactID.Text))
                 {
                     DisplayAlert("Warning", "Please Select the Record to Delete!", "OK");
@@ -138,7 +138,7 @@ namespace ROI
                 string pth = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal), "abc.csv");
                 var config = new CsvConfiguration(CultureInfo.InvariantCulture)
                 {
-
+                    // Don't write the header again.
                     HasHeaderRecord = false,
                 };
                 var getalldata = File.ReadAllLines(pth);

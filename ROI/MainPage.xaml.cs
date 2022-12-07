@@ -22,23 +22,23 @@ namespace ROI
         public MainPage()
         {
             InitializeComponent();
-            
+            //Calling of function Loaddata on application load to initialize the record which are saved to csv file.
             loaddata();
         }
         private void loaddata()
         {
-            
+            //Path of the csv file named as abc.csv
             string pth = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal), "abc.csv");
-            
+            //csv header configuration file.
             var config = new CsvConfiguration(CultureInfo.InvariantCulture)
             {
                 HasHeaderRecord = false,
             };
-            
+            //checks if the file exists
             if (File.Exists(pth))
-            {
+            {//reading the csv file
                 var z = File.ReadAllText(pth);
-                
+                //checks if the file is not empty.
                 if (!string.IsNullOrEmpty(z.ToString()))
                 {
                     List<CsvMap> lst2 = new List<CsvMap>();
@@ -47,7 +47,7 @@ namespace ROI
                     using (var csv = new CsvReader(writer, config))
                     {
                         using (var dr = new CsvDataReader(csv))
-                        {
+                        {//reading the csv file with the data reader.
                             while (dr.Read())
                             {
                                 var mm = dr[0].ToString();
@@ -73,7 +73,7 @@ namespace ROI
             }
             else
             {
-                
+                //record initializing into the list and also saving to the csv file.
                 //File.Create(pth);
                 List<CsvMap> lst2 = new List<CsvMap>();
                 CsvMap obj = new CsvMap();
@@ -158,10 +158,10 @@ namespace ROI
         private void PersonView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
             var z = e.SelectedItem as CsvMap;
-            
+            //saving data to the properties for later use.
             Application.Current.Properties["OKAY"] = z;
             Application.Current.SavePropertiesAsync();
-            
+            //moving from one form to another form.
             Navigation.PushAsync(new UserProfile());
         }
 
