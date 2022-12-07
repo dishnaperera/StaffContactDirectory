@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             NavigationPage.HasBackButton="True"
+             Title="CONTACT INFORMATION"
+             x:Class="ROI.UserProfile">
+    <ContentPage.Content>
+        <ScrollView VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" HorizontalScrollBarVisibility="Always">
+            <StackLayout Orientation="Vertical">
+                <!--<Label Text="Contact Information" TextColor="Red" FontSize="30" HorizontalTextAlignment="Center"/>-->
+                <Entry TextColor="Black" BackgroundColor="LightYellow" x:Name="txtContactID" IsTextPredictionEnabled="True"  Keyboard="Numeric" Placeholder="Contact ID"  />
+                <Entry TextColor="Black" BackgroundColor="LightYellow" x:Name="txtContactName" IsTextPredictionEnabled="True"  Keyboard="Default" Placeholder="Contact Name"  />
+                <Entry TextColor="Black" BackgroundColor="LightYellow" x:Name="txtPhone" IsTextPredictionEnabled="True"  Keyboard="Numeric" Placeholder="Contact Phone Number"  />
+                <Entry TextColor="Black" BackgroundColor="LightYellow" x:Name="txtDepartment" IsTextPredictionEnabled="True"  Keyboard="Default" Placeholder="Department"  />
+                <Entry TextColor="Black" BackgroundColor="LightYellow" x:Name="txtAddressStreet" IsTextPredictionEnabled="True"  Keyboard="Default" Placeholder="Address Street"  />
+                <Entry TextColor="Black" BackgroundColor="LightYellow" x:Name="txtAddressCity" IsTextPredictionEnabled="True"  Keyboard="Default" Placeholder="Address City"  />
+                <Entry TextColor="Black" BackgroundColor="LightYellow" x:Name="txtAddressState" IsTextPredictionEnabled="True"  Keyboard="Default" Placeholder="Address State"  />
+                <Entry TextColor="Black" BackgroundColor="LightYellow" x:Name="txtAddressZip" IsTextPredictionEnabled="True"  Keyboard="Default" Placeholder="Address Zip"  />
+                <Entry TextColor="Black" BackgroundColor="LightYellow" x:Name="txtAddressCountry" IsTextPredictionEnabled="True"  Keyboard="Default" Placeholder="Address Country"  />
+                <Button Clicked="btnSave_Clicked" x:Name="btnSave" Text="Save" FontSize="20" HeightRequest="70" BorderColor="Red" />
+                <Button Clicked="btnBack_Clicked" IsVisible="false" x:Name="btnBack" Text="Show List" FontSize="20" HeightRequest="70" BorderColor="Red" />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

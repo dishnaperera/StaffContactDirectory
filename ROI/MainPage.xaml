@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             NavigationPage.HasBackButton="False"
+             Title="Contacts List"
+             NavigationPage.HasNavigationBar="True"
+             x:Class="ROI.MainPage">
+    <StackLayout Orientation="Vertical" HorizontalOptions="Fill" Margin="1,1,1,1">
+        <!--<Frame BackgroundColor="#2196F3" Padding="0" CornerRadius="0">
+            <Label BackgroundColor="#e7e7e7" Text="Contacts List" HorizontalTextAlignment="Center" TextColor="#646464" FontSize="36"></Label>
+        </Frame>-->
+
+        <Image  Source="cutTexture" Margin="1,1,1,-12" HorizontalOptions="FillAndExpand"/>
+        <Button Text="ADD NEW CONTACT"  x:Name="btnAddContact" HeightRequest="50" Clicked="btnAddContact_Clicked"/>
+        <ScrollView VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" HorizontalScrollBarVisibility="Always">
+        <ListView x:Name="PersonView" ItemSelected="PersonView_ItemSelected"
+            ItemsSource="{Binding Person}" HasUnevenRows="True">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                            <Grid Padding="0" ColumnDefinitions="15,*,*,*,*,*,*,*,*,*">
+                                <Label IsVisible="false" Grid.Column="0" BackgroundColor="#eeeeee" TextColor="#646464"
+                                   HorizontalTextAlignment="Start"
+                                   VerticalTextAlignment="Center"
+                                   Text="{Binding contactID}" FontFamily="Trebuchet MS" FontAttributes="None" FontSize="12"/>
+                            <Label Grid.Column="1" Grid.ColumnSpan="4"  Text="{Binding name}" FontFamily="Trebuchet MS" FontAttributes="Bold" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="18"/>
+                            <Label Grid.Column="2" Grid.ColumnSpan="7"  Text="{Binding phone}" FontFamily="Trebuchet MS" FontAttributes="Bold" VerticalTextAlignment="Center" HorizontalTextAlignment="End" FontSize="18"/>
+                            <Label IsVisible="false" Grid.Column="3"  Text="{Binding department}" FontFamily="Trebuchet MS" FontAttributes="Bold" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="8"/>
+                            <Label IsVisible="false" Grid.Column="4"  Text="{Binding addressStreet}" FontFamily="Trebuchet MS" FontAttributes="Bold" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="8"/>
+                            <Label IsVisible="false" Grid.Column="5"  Text="{Binding addressCity}" FontFamily="Trebuchet MS" FontAttributes="Bold" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="8"/>
+                            <Label IsVisible="false" Grid.Column="6"  Text="{Binding addressState}" FontFamily="Trebuchet MS" FontAttributes="Bold" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="8"/>
+                            <Label IsVisible="false" Grid.Column="7"  Text="{Binding addressZip}" FontFamily="Trebuchet MS" FontAttributes="Bold" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="8"/>
+                            <Label IsVisible="false" Grid.Column="2"  Text="{Binding addressCountry}" FontFamily="Trebuchet MS" FontAttributes="Bold" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="8"/>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,16 @@
+C:\Users\place\OneDrive\Documents\GitHub\Tafe-Mobile-Dev\ROI\ROI\bin\Debug\netstandard2.0\ROI.deps.json
+C:\Users\place\OneDrive\Documents\GitHub\Tafe-Mobile-Dev\ROI\ROI\bin\Debug\netstandard2.0\ROI.dll
+C:\Users\place\OneDrive\Documents\GitHub\Tafe-Mobile-Dev\ROI\ROI\bin\Debug\netstandard2.0\ROI.pdb
+C:\Users\place\OneDrive\Documents\GitHub\Tafe-Mobile-Dev\ROI\ROI\obj\Debug\netstandard2.0\ROI.csproj.AssemblyReference.cache
+C:\Users\place\OneDrive\Documents\GitHub\Tafe-Mobile-Dev\ROI\ROI\obj\Debug\netstandard2.0\ROI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\place\OneDrive\Documents\GitHub\Tafe-Mobile-Dev\ROI\ROI\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\place\OneDrive\Documents\GitHub\Tafe-Mobile-Dev\ROI\ROI\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\place\OneDrive\Documents\GitHub\Tafe-Mobile-Dev\ROI\ROI\obj\Debug\netstandard2.0\UserProfile.xaml.g.cs
+C:\Users\place\OneDrive\Documents\GitHub\Tafe-Mobile-Dev\ROI\ROI\obj\Debug\netstandard2.0\ROI.AssemblyInfoInputs.cache
+C:\Users\place\OneDrive\Documents\GitHub\Tafe-Mobile-Dev\ROI\ROI\obj\Debug\netstandard2.0\ROI.AssemblyInfo.cs
+C:\Users\place\OneDrive\Documents\GitHub\Tafe-Mobile-Dev\ROI\ROI\obj\Debug\netstandard2.0\ROI.csproj.CoreCompileInputs.cache
+C:\Users\place\OneDrive\Documents\GitHub\Tafe-Mobile-Dev\ROI\ROI\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\place\OneDrive\Documents\GitHub\Tafe-Mobile-Dev\ROI\ROI\obj\Debug\netstandard2.0\ROI.dll
+C:\Users\place\OneDrive\Documents\GitHub\Tafe-Mobile-Dev\ROI\ROI\obj\Debug\netstandard2.0\refint\ROI.dll
+C:\Users\place\OneDrive\Documents\GitHub\Tafe-Mobile-Dev\ROI\ROI\obj\Debug\netstandard2.0\ROI.pdb
+C:\Users\place\OneDrive\Documents\GitHub\Tafe-Mobile-Dev\ROI\ROI\obj\Debug\netstandard2.0\ref\ROI.dll
