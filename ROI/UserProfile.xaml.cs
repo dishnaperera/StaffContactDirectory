@@ -126,9 +126,67 @@ namespace ROI
         {
             Navigation.PushAsync(new MainPage());
         }
-  
-        
-              
-        
+        private void btnDelete_Clicked(object sender, EventArgs e)
+        {
+            try
+            {
+                if (string.IsNullOrEmpty(txtContactID.Text))
+                {
+                    DisplayAlert("Warning", "Please Select the Record to Delete!", "OK");
+                    return;
+                }
+                string pth = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal), "abc.csv");
+                var config = new CsvConfiguration(CultureInfo.InvariantCulture)
+                {
+
+                    HasHeaderRecord = false,
+                };
+                var getalldata = File.ReadAllLines(pth);
+                CsvMap obj = new CsvMap();
+                List<CsvMap> lst = new List<CsvMap>();
+                foreach (var item in getalldata)
+                {
+                    var splitted = item.Split(',');
+                    if (string.IsNullOrEmpty(splitted[0]))
+                    {
+                        continue;
+                    }
+                    if (Convert.ToInt32(txtContactID.Text) == Convert.ToInt32(splitted[0]))
+                    {
+                        continue;
+                    }
+                    obj = new CsvMap();
+                    obj.contactID = Convert.ToInt32(splitted[0]);
+                    obj.name = splitted[1];
+                    obj.phone = splitted[2];
+                    obj.department = splitted[3];
+                    obj.addressStreet = splitted[4];
+                    obj.addressCity = splitted[5];
+                    obj.addressState = splitted[6];
+                    obj.addressZip = splitted[7];
+                    obj.addressCountry = splitted[8];
+                    lst.Add(obj);
+                }
+                File.WriteAllText(pth, "");
+                using (var stream = File.OpenWrite(pth))
+                using (var writer = new StreamWriter(stream))
+                using (var csv = new CsvWriter(writer, config))
+                {
+
+                    csv.WriteRecords(lst);
+                    csv.Flush();
+                }
+                DisplayAlert("Success", "Record Deleted!", "OK");
+            }
+            catch (Exception ex)
+            {
+                DisplayAlert("Warning", ex.Message, "OK");
+            }
+        }
+
+
+
+
+
     }
 }

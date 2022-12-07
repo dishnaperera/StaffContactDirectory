@@ -3526,11 +3526,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\place\\OneDrive\\Documents\\GitHub\\Tafe-Mobile-Dev\\ROI\\ROI.Andoid\\ROI.Andoid.csproj",
+      "projectUniqueName": "C:\\Users\\place\\OneDrive\\Documents\\GitHub\\ROI\\ROI.Andoid\\ROI.Andoid.csproj",
       "projectName": "ROI.Android",
-      "projectPath": "C:\\Users\\place\\OneDrive\\Documents\\GitHub\\Tafe-Mobile-Dev\\ROI\\ROI.Andoid\\ROI.Andoid.csproj",
+      "projectPath": "C:\\Users\\place\\OneDrive\\Documents\\GitHub\\ROI\\ROI.Andoid\\ROI.Andoid.csproj",
       "packagesPath": "C:\\Users\\place\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\place\\OneDrive\\Documents\\GitHub\\Tafe-Mobile-Dev\\ROI\\ROI.Andoid\\obj\\",
+      "outputPath": "C:\\Users\\place\\OneDrive\\Documents\\GitHub\\ROI\\ROI.Andoid\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -3551,8 +3551,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "C:\\Users\\place\\OneDrive\\Documents\\GitHub\\Tafe-Mobile-Dev\\ROI\\ROI\\ROI.csproj": {
-              "projectPath": "C:\\Users\\place\\OneDrive\\Documents\\GitHub\\Tafe-Mobile-Dev\\ROI\\ROI\\ROI.csproj"
+            "C:\\Users\\place\\OneDrive\\Documents\\GitHub\\ROI\\ROI\\ROI.csproj": {
+              "projectPath": "C:\\Users\\place\\OneDrive\\Documents\\GitHub\\ROI\\ROI\\ROI.csproj"
             }
           }
         }

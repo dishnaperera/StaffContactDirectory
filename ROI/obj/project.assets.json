@@ -2854,11 +2854,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\place\\OneDrive\\Documents\\GitHub\\Tafe-Mobile-Dev\\ROI\\ROI\\ROI.csproj",
+      "projectUniqueName": "C:\\Users\\place\\OneDrive\\Documents\\GitHub\\ROI\\ROI\\ROI.csproj",
       "projectName": "ROI",
-      "projectPath": "C:\\Users\\place\\OneDrive\\Documents\\GitHub\\Tafe-Mobile-Dev\\ROI\\ROI\\ROI.csproj",
+      "projectPath": "C:\\Users\\place\\OneDrive\\Documents\\GitHub\\ROI\\ROI\\ROI.csproj",
       "packagesPath": "C:\\Users\\place\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\place\\OneDrive\\Documents\\GitHub\\Tafe-Mobile-Dev\\ROI\\ROI\\obj\\",
+      "outputPath": "C:\\Users\\place\\OneDrive\\Documents\\GitHub\\ROI\\ROI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

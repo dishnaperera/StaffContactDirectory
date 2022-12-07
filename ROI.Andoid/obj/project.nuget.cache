@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "K7IZFg6YQt1B6fu31gMmvQ69nWpVNDNi5FK55SG8+dFsJbt2TNHLR+LpFXZDmpashghAZ9aAx9cigfUe5ydKJA==",
+  "dgSpecHash": "UmnM+1C5TLIm+vHvLG1x0DxqflEuDq2fg5JO7K8mKrxc0Webi3gncB2xsnlZ/By/EXdLNSNNZV4g80VCI2bVtg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\place\\OneDrive\\Documents\\GitHub\\Tafe-Mobile-Dev\\ROI\\ROI.Andoid\\ROI.Andoid.csproj",
+  "projectFilePath": "C:\\Users\\place\\OneDrive\\Documents\\GitHub\\ROI\\ROI.Andoid\\ROI.Andoid.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\place\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512",
     "C:\\Users\\place\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",

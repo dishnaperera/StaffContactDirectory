@@ -1267,11 +1267,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\place\\OneDrive\\Documents\\GitHub\\Tafe-Mobile-Dev\\ROI\\ROI.iOS\\ROI.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\place\\OneDrive\\Documents\\GitHub\\ROI\\ROI.iOS\\ROI.iOS.csproj",
       "projectName": "ROI.iOS",
-      "projectPath": "C:\\Users\\place\\OneDrive\\Documents\\GitHub\\Tafe-Mobile-Dev\\ROI\\ROI.iOS\\ROI.iOS.csproj",
+      "projectPath": "C:\\Users\\place\\OneDrive\\Documents\\GitHub\\ROI\\ROI.iOS\\ROI.iOS.csproj",
       "packagesPath": "C:\\Users\\place\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\place\\OneDrive\\Documents\\GitHub\\Tafe-Mobile-Dev\\ROI\\ROI.iOS\\obj\\",
+      "outputPath": "C:\\Users\\place\\OneDrive\\Documents\\GitHub\\ROI\\ROI.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1292,8 +1292,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\place\\OneDrive\\Documents\\GitHub\\Tafe-Mobile-Dev\\ROI\\ROI\\ROI.csproj": {
-              "projectPath": "C:\\Users\\place\\OneDrive\\Documents\\GitHub\\Tafe-Mobile-Dev\\ROI\\ROI\\ROI.csproj"
+            "C:\\Users\\place\\OneDrive\\Documents\\GitHub\\ROI\\ROI\\ROI.csproj": {
+              "projectPath": "C:\\Users\\place\\OneDrive\\Documents\\GitHub\\ROI\\ROI\\ROI.csproj"
             }
           }
         }

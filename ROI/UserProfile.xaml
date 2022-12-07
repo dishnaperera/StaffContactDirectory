@@ -19,6 +19,7 @@
                 <Entry TextColor="Black" BackgroundColor="LightYellow" x:Name="txtAddressCountry" IsTextPredictionEnabled="True"  Keyboard="Default" Placeholder="Address Country"  />
                 <Button Clicked="btnSave_Clicked" x:Name="btnSave" Text="Save" FontSize="20" HeightRequest="70" BorderColor="Red" />
                 <Button Clicked="btnBack_Clicked" IsVisible="false" x:Name="btnBack" Text="Show List" FontSize="20" HeightRequest="70" BorderColor="Red" />
+                <Button Clicked="btnDelete_Clicked" IsVisible="true" x:Name="btnDelete" Text="Delete" FontSize="20" HeightRequest="70" BorderColor="Red" />
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>
